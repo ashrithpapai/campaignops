@@ -1,0 +1,18 @@
+#,Campaign (find it in GA4),What it tests,Link to open,CampaignOps predicts,Prediction status,GA4 actually shows,Match? (yes/no)
+1,cotest_01,Paid search (the basic case),https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=google&utm_medium=cpc&utm_campaign=cotest_01,Paid Search,Exact rule match,Paid Search,yes
+2,cotest_02,Capital letters: GA4 should ignore them,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=Google&utm_medium=CPC&utm_campaign=cotest_02,Paid Search,Exact rule match,Paid Search,yes
+3,cotest_03,Paid social,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=facebook&utm_medium=paid_social&utm_campaign=cotest_03,Paid Social,Exact rule match,Paid Social,yes
+4,cotest_04,Paid video,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=youtube&utm_medium=cpc&utm_campaign=cotest_04,Paid Video,Exact rule match,Paid Video,yes
+5,cotest_05,Paid shopping (source with a space),https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=google%20shopping&utm_medium=cpc&utm_campaign=cotest_05,Paid Shopping,Exact rule match,Paid Shopping,yes
+6,cotest_06,Paid source not on Google's list,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=meta&utm_medium=paid_social&utm_campaign=cotest_06,Paid Other,Review required,Paid Social,NO
+7,cotest_07,'Paid' medium GA4 doesn't recognise,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=facebook&utm_medium=social-paid&utm_campaign=cotest_07,Organic Social,Review required,Organic Social,yes
+8,cotest_08,Organic social,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=instagram&utm_medium=social&utm_campaign=cotest_08,Organic Social,Exact rule match,Organic Social,yes
+9,cotest_09,Organic search,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=google&utm_medium=organic&utm_campaign=cotest_09,Organic Search,Exact rule match,Organic Search,yes
+10,cotest_10,Email,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=newsletter&utm_medium=email&utm_campaign=cotest_10,Email,Exact rule match,Email,yes
+11,cotest_11,SMS,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=sms_provider&utm_medium=sms&utm_campaign=cotest_11,SMS,Exact rule match,SMS,yes
+12,cotest_12,Display,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=partner_network&utm_medium=display&utm_campaign=cotest_12,Display,Exact rule match,Display,yes
+13,cotest_13,Affiliates,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=partner_site&utm_medium=affiliate&utm_campaign=cotest_13,Affiliates,Exact rule match,Affiliates,yes
+14,cotest_14,Referral,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=industry_blog&utm_medium=referral&utm_campaign=cotest_14,Referral,Exact rule match,Referral,yes
+15,cotest_15,AI assistant medium,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=assistant&utm_medium=ai-assistant&utm_campaign=cotest_15,AI Assistant,Exact rule match,AI Assistant,yes
+16,cotest_16,Made-up source and medium,https://ashrithpapai.github.io/campaignops/ga4-test.html?utm_source=xyz&utm_medium=abc&utm_campaign=cotest_16,Unassigned,Review required,Unassigned,yes
+17,cotest_17,Tags after the # (GA4 can't read them),https://ashrithpapai.github.io/campaignops/ga4-test.html#top?utm_source=google&utm_medium=cpc&utm_campaign=cotest_17,can't predict,Prediction unavailable,Direct (not in campaign list),yes
